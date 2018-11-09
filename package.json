@@ -1,0 +1,32 @@
+{
+  "name": "pokinano-functions-styler",
+  "main": "./index",
+  "version": "0.0.0",
+  "description": "Style the functions blocks",
+  "keywords": [
+    "style",
+    "function",
+    "functions",
+    "method",
+    "methods",
+    "background",
+    "color",
+    "parameters",
+    "return"
+  ],
+  "activationCommands": {
+    "atom-workspace": "pokinano-functions-styler:toggle"
+  },
+  "activationHooks": [
+    "language-javascript:grammar-used",
+    "language-typescript:grammar-used"
+  ],
+  "repository": "https://github.com/atom/pokinano-functions-styler",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "react": "^16.6.0"
+  }
+}
