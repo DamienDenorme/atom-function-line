@@ -1,4 +1,4 @@
 "use babel";
-import FunctionStyler from "./lib/function-styler";
+import FunctionStyler from "./lib/function-line";
 
 export default new FunctionStyler();

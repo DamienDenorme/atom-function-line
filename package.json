@@ -1,27 +1,22 @@
 {
-  "name": "pokinano-functions-styler",
+  "name": "function-line",
   "main": "./index",
   "version": "0.0.0",
-  "description": "Style the functions blocks",
+  "description": "Add a line (a decorated marker) over a function definition",
   "keywords": [
-    "style",
+    "line",
     "function",
     "functions",
     "method",
     "methods",
-    "background",
-    "color",
-    "parameters",
-    "return"
+    "separator",
+    "color"
   ],
-  "activationCommands": {
-    "atom-workspace": "pokinano-functions-styler:toggle"
-  },
   "activationHooks": [
     "language-javascript:grammar-used",
     "language-typescript:grammar-used"
   ],
-  "repository": "https://github.com/atom/pokinano-functions-styler",
+  "repository": "https://github.com/DamienDenorme/function-line",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
